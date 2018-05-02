@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo app</title>
+    <link rel="stylesheet"
+          href="node_modules/material-components-web/dist/material-components-web.css">
+          <link rel="stylesheet" href="index.css"/>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body class="mdc-typography">
+    <h2 class="mdc-typography--display2">My Todo App!</h2>
+    <div class="mdc-text-field" data-mdc-auto-init="MDCTextField">
+      <input type="text" id="input" class="mdc-text-field__input" id="demo-input">
+      <label for="input" class="mdc-floating-label">Add a task!</label>
+    </div>
+    <span><button id="Add" class="mdc-button mdc-button--raised">
+        Add
+      </button></span>
+      <br/><br> 
+
+      
+       <div id="tasks">
+
+       
+    </div>
+    <br/>
+ 
+               
+       
+        
+      
+    <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>mdc.autoInit()</script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+#my-card {
+    height: 50px;
+    width: 320px;
+   
+    text-align: center;
+  }
+
+
+  .checked{
+      text-decoration: line-through;
+  }
+
+.delete_button{
+    display:none;
+}
+.task:hover .delete_button{
+    display: inline-block;
+    
+}
